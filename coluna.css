@@ -1,0 +1,42 @@
+body {
+    background-image: url("imagens/fundo imagem 2.png");
+    background-repeat: no-repeat;
+    background-size: 1920px;    
+}
+#tyler {
+    position: fixed;
+    left: 850px;
+    top: 80px;
+}
+#macacotortao {
+    left: 705px;
+}
+#macacoretao {
+    left:1066px;
+}
+#macacoretao,#macacotortao {
+    top: 600px;
+    cursor: pointer;
+    position: fixed;
+}
+#pontuação {
+    font-size: 120px;
+    border: solid 20px yellow;
+    padding-left: 45px; 
+    padding-right: 45px;
+    left:860px;
+    top: 340px;
+}
+#timer {
+    font-size: 50px;
+    border: solid 12px yellow;
+    padding-left: 16px;
+    padding-right: 17px;
+    left: 860px;
+    top: 630px;
+}
+#pontuação,#timer {
+    font-family: monospace;
+    color: yellow;
+    position: fixed;
+}
